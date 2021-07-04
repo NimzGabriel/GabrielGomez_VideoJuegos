@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_VideoJuegos", "API_VideoJuegos\API_VideoJuegos.csproj", "{09118C12-4B27-4142-A264-6D53896A34EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_VideoJuegos", "WebApplication_VideoJuegos\WebApplication_VideoJuegos.csproj", "{E201891F-ED9E-4DAC-8CDD-DA3B70D20C13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09118C12-4B27-4142-A264-6D53896A34EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09118C12-4B27-4142-A264-6D53896A34EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09118C12-4B27-4142-A264-6D53896A34EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09118C12-4B27-4142-A264-6D53896A34EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E201891F-ED9E-4DAC-8CDD-DA3B70D20C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E201891F-ED9E-4DAC-8CDD-DA3B70D20C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E201891F-ED9E-4DAC-8CDD-DA3B70D20C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E201891F-ED9E-4DAC-8CDD-DA3B70D20C13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E65D5E33-FF8D-4FC3-A433-4626E31F55A5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<WebApplication_VideoJuegos.Models.consola>
+
+@{
+    ViewBag.Title = "Index Consolas";
+}
+<br />
+<h2>Lista de Consolas</h2> 
+<br />
+
+<p>
+    @Html.ActionLink("Añadir consola", "Create", null, new { @class = "btn btn-success" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.marca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.modelo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.anio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nueva)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.precio)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.stock)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.marca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.modelo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.anio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nueva)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.stock)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.id }, new { @class = "btn btn-primary" })  
+            @Html.ActionLink("Ver Detalles", "Details", new { id=item.id }, new { @class = "btn btn-info" })  
+            @Html.ActionLink("Eliminar", "Delete", new { id=item.id }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>
